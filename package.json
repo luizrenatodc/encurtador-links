@@ -1,0 +1,14 @@
+{
+  "name": "encurtador-links",
+  "version": "1.0.0",
+  "description": "Encurtador de URLs com painel: apelido personalizado, expiração, cliques por dia, QR Code em SVG e API REST. Node + node:sqlite, sem dependências.",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "semente": "node --disable-warning=ExperimentalWarning src/semente.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": { "node": ">=22.5" }
+}

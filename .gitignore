@@ -1,0 +1,10 @@
+node_modules/
+*.db
+*.db-wal
+*.db-shm
+.env
+dados/
+tmp/
+*.log
+tmp/
+*.log
